@@ -1,4 +1,4 @@
-package com.swmansion.gesturehandler.react;
+package com.swmansion.gesturehandler;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
@@ -8,6 +8,9 @@ import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewGroupManager;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.views.view.ReactViewManager;
+import com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager;
+import com.swmansion.gesturehandler.react.RNGestureHandlerModule;
+import com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager;
 
 import java.util.Arrays;
 import java.util.List;
